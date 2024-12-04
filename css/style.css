@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav {
+    background: #2c3e50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #e8491d;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #35424a;
+}
+
+.reasons-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reason-item {
+    margin: 10px 0;
+    padding: 10px;
+    background: #e9ecef;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.reason-item:hover {
+    transform: scale(1.02);
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #e8491d;
+}
